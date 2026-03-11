@@ -1,0 +1,17 @@
+export const PATTERNS = [
+  { id: 'stacked_h',      name: 'Stacked Horizontal', icon: '═', family: 'grid' },
+  { id: 'stacked_v',      name: 'Stacked Vertical',   icon: '║', family: 'grid' },
+  { id: 'offset_h',       name: 'Running Bond',        icon: '⊟', family: 'offset' },
+  { id: 'offset_v',       name: 'Offset Vertical',     icon: '⊞', family: 'offset' },
+  { id: 'third_offset',   name: '1/3 Offset',          icon: '⋮', family: 'offset' },
+  { id: 'herringbone',    name: 'Straight Herringbone', icon: '⊢', family: 'herringbone' },
+  { id: 'herringbone_diag', name: 'Herringbone 45°',   icon: '◇', family: 'herringbone' },
+  { id: 'herringbone_str', name: 'Herringbone',         icon: '⟋', family: 'herringbone' },
+  { id: 'chevron',        name: 'Chevron',              icon: '∧', family: 'chevron' },
+  { id: 'diagonal',       name: 'Diamond / Diagonal',  icon: '◆', family: 'diagonal' },
+  { id: 'crosshatch',     name: 'Crosshatch',           icon: '⊞', family: 'modular' },
+  { id: 'pinwheel',       name: 'Pinwheel',             icon: '⟳', family: 'modular' },
+  { id: 'corridor',       name: 'Corridor',             icon: '⊏', family: 'modular' },
+  { id: 'versailles',     name: 'Versailles',           icon: '⊡', family: 'modular' },
+  { id: 'parquet',        name: 'Parquet',              icon: '▥', family: 'modular' },
+];
